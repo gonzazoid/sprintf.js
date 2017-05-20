@@ -2,7 +2,7 @@
 
 # sprinf.js
 
-sprintf: (pattern: string, entries: {[key: string]: string;}, mode?: "sloppy" | "neat" | "strict") => string;
+### sprintf: (pattern: string, entries: {[key: string]: string;}, mode?: "sloppy" | "neat" | "strict") => string;
 
 it's [nano](https://github.com/trix/nano)-like template engine with two differences - I'm use /% %/ as delimiters for template keys and there is no way to pass nested properties like obj.some.prop.to.fill.some.place.
 Why /% %/? Because this is convenient way to use templates in js/ts code without breaking syntax. Look here:
@@ -37,7 +37,7 @@ as you can see template does'n break js/ts syntax because js/ts interpreter (and
 Keep in mind - if you try to pass serialised object (via JSON.stringify) quotes escaping (if it's necessary) is on your responsibility.
 
 there are three mode:
-* sploppy (default) - replaces with entries[key] whether entry is present or not (if not - replaces with undefined)
+* sloppy (default) - replaces with entries[key] whether entry is present or not (if not - replaces with undefined)
 * neat - checks if entry is present, if not - doesn't touch
 * strict - checks if  entry is present, if not - throw error
 
