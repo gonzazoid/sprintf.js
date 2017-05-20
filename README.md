@@ -1,5 +1,4 @@
-# <img src="https://img.shields.io/travis/gonzazoid/sprintf.js.svg"></img> <img src="https://img.shields.io/npm/v/gonzazoid.sprintf.js.svg"></img>
-<img src="https://gonzazoid.github.io/strongly_typed.svg"></img>
+# <img src="https://img.shields.io/travis/gonzazoid/sprintf.js.svg"></img> <img src="https://img.shields.io/npm/v/gonzazoid.sprintf.js.svg"></img> <img src="https://gonzazoid.github.io/strongly_typed.svg"></img>
 
 # sprinf.js
 
